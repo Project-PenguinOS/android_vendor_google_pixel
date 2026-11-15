@@ -231,23 +231,6 @@
          android.os.action.POWER_SAVE_MODE_CHANGED. -->
     <string name="config_powerSaveModeChangedListenerPackage" translatable="false">com.google.android.flipendo</string>
 
-    <!-- Control the behavior when the user presses the power and volume up buttons together.
-            0 - Nothing
-            1 - Mute toggle
-            2 - Global actions menu
-    -->
-    <integer name="config_keyChordPowerVolumeUp">1</integer>
-
-    <!-- Control the behavior when the user long presses the power button.
-            0 - Nothing
-            1 - Global actions menu
-            2 - Power off (with confirmation)
-            3 - Power off (without confirmation)
-            4 - Go to voice assist
-            5 - Go to assistant (Settings.Secure.ASSISTANT)
-    -->
-    <integer name="config_longPressOnPowerBehavior">1</integer>
-
     <!-- The component name for the default system AmbientContextEvent detection service.
         This service must be trusted, as it can be activated without explicit consent of the user.
         See android.service.ambientcontext.AmbientContextDetectionService.
